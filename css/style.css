@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('http://mcansh.github.io/yeezy-logo-font/assets/css/font.css');
+
+
+:root{
+  --black:#101018;
+  --red:#f10c0cc5;
+}
+*{
+  font-family: 'Anton', sans-serif;
+  margin: 0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+html{
+  font-size: 50%;
+  overflow-x: hidden;
+  scroll-padding-top:30px;
+  scroll-behavior: smooth;
+}
+
+section{
+  padding:24px 9%;
+}
+
+.heading{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color:var(--black);
+  padding:16px;
+}
+
+.heading span{
+  text-transform: uppercase;
+  color:var(--red);
+}
+
+
+header{
+  position: fixed;
+  top:0; left:0; right:0;
+  z-index: 1000;
+  background:rgba(83, 83, 77, 0.596);
+  padding:20px 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 8px 16px rgba(0,0,0,.1);
+}
+header .logo{
+  font-size: 25px;
+  color:var(--red);
+  
+}
+header .navbar a{
+  font-size: 20px;
+  color:var(--red);
+  margin:0 16px;
+  
+}
+header .navbar{
+  margin-right: 45%;
+}
+
+header .navbar a:hover{
+  color:var(--red);
+}
+
+
+
+#menu-bar{
+  font-size: 25px;
+  padding: 8px 24px;
+  border:1.6px solid var(--black);
+  color:var(--red);
+  border-radius: 4.8px;
+  cursor: pointer;
+  display: none;
+}
+
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width:500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    height: auto;
+    
+
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+.intro p{
+  text-align: center;
+  font-size: 20px;
+}
+.products .box-container{
+display: flex;
+flex-wrap: wrap;
+gap: 1.5rem;
+}
+.products .box-container .box {
+ 
+  border: .1rem rgba(0,0,0,.1);
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #f5f5f5;
+  flex: 1 1 30rem;
+}
+.products .box-container .box .content{
+  padding:1.5rem;
+}
+
+.products .box-container .box img{
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+ 
+}
+.products .box-container img{
+ 
+    
+    width:  250px;
+    height: 250px;
+    object-position: center;
+    margin-left: 25px;
+
+}
+
+.products .box-container .box .content h3{
+  color:var(--black);
+  font-size: 2.5rem;
+}
+.products .box-container .box .content .price{
+  color:var(--black);
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding:1rem 0;
+}
+.products .box-container .box{
+ 
+  border: .1rem rgba(0,0,0,.1);
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #f5f5f5;
+  flex: 1 1 30rem;
+}
+.adidas h3{
+  font-family: 'Yeezy' !important;
+}
+.adidas .price{
+  font-family: 'Yeezy' !important;
+}
+.SneakerHeader{
+  margin-top: 70px;
+  font-size: 40px !important;
+  float: left !important;
+ 
+}
+.SneakerHeader h1{
+  font-family:   Arial, Helvetica, sans-serif !important;
+  color: #ad276a;
+}
+.SneakerHeader h3{
+  font-family:   Arial, Helvetica, sans-serif !important;
+  color: #d6da13;
+}
+.SHYzy{
+  margin-top: 70px;
+  font-size: 40px !important;
+  float: left !important;
+  
+}
+.SHYzy h1  {
+  font-family: 'yeezy' !important;
+  color: #ad276a;
+}
+.SHYzy h3{
+  font-family: 'yeezy' !important;
+  color: #ffa880;
+}
+.shoepics img{
+  display: inline-flex;
+  flex-wrap: wrap;
+   width:  400px;
+   height: 400px;
+ align-items: center;
+ object-fit: contain;
+}
+.shoepicsyeezy img{
+  display: inline-flex;
+  flex-wrap: wrap;
+   width:  600px;
+   height: 600px;
+ align-items: center;
+ object-fit: contain;
+}
+.SneakerInfo {
+
+  font-size: 18px !important;
+  float: left !important;
+  display: block;
+  
+}
+.SIYzy {
+
+  font-size: 18px !important;
+  float: left !important;
+  display: block;
+  
+}
+.SneakerInfo h3  {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  color:rgb(21, 33, 134);
+margin-top: 40px;
+
+}
+.SneakerInfo p{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  color: black;
+}
+.SIYzy h3  {
+  font-family: 'Yeezy' !important;
+  color:rgb(21, 33, 134);
+  margin-top: 40px;
+
+}
+.SIYzy p{
+  font-family: 'Yeezy' !important;
+  color: black;
+}
+.SizeSelect{
+position: relative;
+display: inline-block;
+font-size: 35px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  color: #396660;
+  text-align: center;
+}
+.SizeSelect select {
+  width: 200px ;
+  min-height: 35px;
+  font-size: 30px;
+  background: #bedad6;
+  border-radius: 3px;
+  border: 2px solid #000000;
+  text-align: center;
+  outline: none;
+  padding: 0 10px;
+  width: auto;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+.size label{
+  text-align: center;
+  display: block;
+}
+.checkout a:link,a:visited{
+  display: block;
+  background-color: #3e4746;
+  color:#FFFFFF !important;
+  padding: 14px 25px;
+text-align: center;
+margin-top: 5%;
+margin-bottom: 20%;
+font-size: 20px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif !important;
+ margin-left: 25%;
+
+ margin-right: 25%;
+
+}
+.Thanks {
+  text-align: center;
+  font-size: 38px;
+}
+
+@media (max-width:990px){
+
+  html{
+    font-size: 50%;
+  }
+
+  header{
+    padding:2rem;
+  }
+
+  section{
+    padding:2rem;
+  }
+
+}
+
+@media (max-width:768px){
+
+  
+
+  header .navbar{
+    position: absolute;
+    top:100%; left:-120%;
+    width:100%;
+    background:#eee;
+    border-top: .1rem solid rgba(0,0,0,.1);
+  }
+
+  header .navbar.active{
+    left:0;
+  }
+
+  header .navbar a{
+    font-size: 2rem;
+    background:#fff;
+    border:.1rem solid var(--black);
+    border-radius: .5rem;
+    padding:1.5rem;
+    margin:1.5rem;
+    display: block;
+    text-align: center;
+  }
+
+
+
+}
+
+@media (max-width:400px){
+
+  html{
+    font-size: 40%;
+  }
+
+  .heading{
+    font-size: 3rem;
+  }
+  .shoepicsyeezy img{
+    width: 320px;
+    height: 320px;
+  }
+
+}
